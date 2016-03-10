@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	农淘商城首页
+	Author:Parker
+	Date:2015/6/30
+*/
+
+/*登录开始*/
+.sign {
+	width: 100%;
+	height: 29px;
+	background: #fcfcfc;
+	color: #888;
+}
+
+.header {
+	width: 1000px;
+	height: 29px;
+	margin: 0 auto;
+	color: #888;
+}
+
+.header a {
+	color: #888;
+	margin-left: 3px;
+}
+
+.header a:hover {
+	color: #f67a06;
+}
+
+.head_03_left {
+	height: 29px;
+	line-height: 29px;
+	float: left;
+	display: inline;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #888;
+}
+
+.head_03_right {
+	height: 29px;
+	line-height: 29px;
+	float: right;
+	display: inline;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #888;
+}
+
+.none {
+	margin-right: 10px;
+}
+
+.head_03_right .none2 {
+	margin-right: 20px;
+	color: #00ab84;
+}
+/*登录结束*/
+
+.logotop {
+	width: 1000px;
+	height: 78px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.logotop_left {
+	width: 280px;
+	height: 78px;
+	float: left;
+	display: inline;
+}
+
+.logotop_right {
+	width: 411px;
+	height: 33px;
+	margin-left: 20px;
+	margin-top: 23px;
+	float: left;
+	display: inline;
+}
+
+.logotop_right form .text {
+	width: 318px;
+	height: 29px;
+	border: solid 2px #03ac53 !important;
+	line-height: 29px;
+	font-size: 12px;
+	padding-left: 5px;
+	color: #666666;
+	outline: none;
+}
+
+.logotop_right form .bottom {
+	width: 78px;
+	height: 33px;
+	background: #03ac53 !important;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	left: -5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.logotop_right table strong {
+	font-weight: normal;
+	color: #666666;
+	position: relative;
+	top: 3px;
+}
+
+.logotop_right table a {
+	margin-right: 10px;
+	color: #666666;
+	position: relative;
+	top: 3px;
+}
+
+.logotop_right table a:hover {
+	color: #2f6ebe;
+}
+
+.gwc {
+	width: 150px;
+	height: 31px;
+	border: solid 1px #e3e3e3;
+	background: url(../images/gwc.png) no-repeat 12px center;
+	float: right;
+	display: inline;
+	line-height: 33px;
+	text-align: center;
+	color: #666666;
+	padding-left: 10px;
+	margin-top: 23px;
+	position: relative;
+}
+
+.gwc a {
+	color: #666666;
+}
+
+.gwc a:hover {
+	color: #ff7500;
+	text-decoration: none;
+}
+
+.gwc .gwc2 {
+	margin-left: 30px;
+}
+
+.gwc img {
+	margin-left: 5px;
+	margin-top: 2px;
+	position: relative;
+	top: 3px;
+	_ top: 13px;
+	left: -5px;
+}
+
+.wdla {
+	width: 80px;
+	height: 40px;
+	float: left;
+	display: inline;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 19px;
+	right: 170px;
+	border: solid 1px #cccccc;
+	padding-left: 7px;
+	background: #fbfbfb;
+}
+
+.wdla a {
+	color: #666666;
+	background: url(../images/wdla.png) no-repeat left center;
+	display: block;
+	width: 80px;
+	height: 40px;
+	padding-left: 6px;
+}
+
+.wdla a:hover {
+	color: #ff7500;
+}
+
+.imghover {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.settleup-content {
+	width: 350px;
+	border: solid 1px #e3e3e3;
+	background: #fff;
+	border-top: none;
+	position: absolute;
+	right: -1px;
+	top: 31px;
+	display: none;
+}
+
+.shoplist {
+	max-height: 300px !important;
+	overflow: hidden;
+}
+
+.settleup-content table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+.settleup-content table tr {
+	border: 1px dotted #ccc;
+	border-left: none;
+	border-right: none;
+	height: 75px;
+	margin: 0;
+	padding: 0;
+}
+
+.settleup-content table tr:hover {
+	background: #f9f9f9;
+}
+
+.settleup-content table tr td:first-child {
+	width: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+.settleup-content table tr td:first-child img {
+	width: 50px;
+	height: 50px;
+	border: 1px dotted #cccccc;
+	padding: 5px;
+	margin: 0;
+}
+
+.settleup-content table tr td:nth-child(2) {
+	width: 160px;
+	height: 60px;
+	line-height: 20px;
+	padding: 5px 0;
+	font-size: 12px;
+	color: #666;
+	text-align: left;
+}
+
+.settleup-content table tr td:nth-child(2) a {
+	color: #666;
+	text-decoration: none;
+}
+
+.settleup-content table tr td:nth-child(2) a:hover {
+	color: #cc3333;
+	text-decoration: underline;
+}
+
+.settleup-content table tr td:nth-child(3) {
+	width: 80px;
+	height: 70px;
+	font-size: 12px;
+	color: #666;
+}
+
+.settleup-content table tr td:nth-child(3) span {
+	color: #cc3333;
+	font-weight: bold;
+	font-family: Microsoft YaHei;
+}
+
+.total {
+	width: 330px;
+	height: 50px;
+	background: #ddd;
+	padding: 0 10px;
+	text-align: right;
+}
+
+.total .shopNum {
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	line-height: 50px;
+	margin-right: 10px;
+}
+
+.total .shopNum b {
+	color: #cc3333;
+	font-weight: bold;
+}
+
+.goGwc {
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	margin-top: 6px;
+	background: #E4393C;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	line-height: 30px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+a.goGwc {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.goGwc:hover {
+	background: #f8272b;
+}
+
+.nogoods {
+	background: #fff url(../images/nogoods.jpg) no-repeat;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px;
+	margin-left: 40px;
+	padding-left: 30px;
+	font-family: Microsoft YaHei;
+	font-size: 13px;
+	color: #555;
+	z-index: 9999;
+	/*display:none;*/
+}
+
+/*导航开始*/
+.nav {
+	width: 100%;
+	background: #fff;
+	position: relative;
+	top: 0;
+	left:0;
+}
+
+.nav-con {
+	width: 100%;
+	height: 40px;
+	background: #007f3c;
+	margin-top: 15px;
+}
+
+.navigation {
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.navigation a {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.navigation .active {
+	background: #03ac53;
+	color: #fff;
+}
+/*导航结束*/
+/*主体内容开始*/
+.content {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/*主体内容结束*/
+/*尾部开始*/
+.footer {
+	width: 1000px;
+	height: auto;
+	border-top: solid 1px #e3e3e3;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.footer p {
+	text-align: center;
+	line-height: 80px;
+	height: 80px;
+	font-family: Microsoft YaHei;
+	color: #666;
+}
+/*尾部结束*/
