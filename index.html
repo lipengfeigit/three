@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>2购物车</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/page.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<!---->
+<body>
+<div id="nav" class="nav">
+<!--sign start-->
+<div class="sign">
+    <div class="header">
+        <div class="head_03_right">
+            <a href="http://www.lianshequ.com" class="none2">
+                利安三农首页
+            </a>
+            您好,
+            <strong>
+                <a href="http://mall.lianshequ.com/Users.html" style="color:#FF6600;font-weight:bold;">
+                    大飞
+                </a>
+            </strong>
+            [
+            <a id="logout" href="javascript:;">
+                退出
+            </a>
+            ] |
+            <a href="http://mall.lianshequ.com/Users/buyer.html" class="nonr_a">
+                我的订单
+            </a>
+            |
+            <a href="http://mall.lianshequ.com/Jifen.html" target="_blank" class="nonr_a">
+                积分商城
+            </a>
+            |
+            <a class="nonr_a phoneno">
+                客服热线： 029-88240363
+            </a>
+            |
+            <a href="javascript:void(0)" onClick="shoucang(document.title,window.location)"
+            class="wd">
+                收藏利安
+            </a>
+        </div>
+    </div>
+</div>
+<!--sign end-->
+<!--title start-->
+<div class="logotop">
+    <div class="logotop_left">
+        <a href="http://mall.lianshequ.com/">
+            <img src="images/logo.png" alt="农淘商城 " />
+        </a>
+    </div>
+    <div class="logotop_right">
+        <form action="/s/0.html" method="get" id="search_form">
+            <script>
+                jQuery(function($) {
+                    if (! ('placeholder' in document.createElement('input'))) {
+                        $('#search-keyword').focusin(function() {
+                            if ($(this).val() == $(this).attr('placeholder')) {
+                                $(this).val("");
+                            }
+                        }).focusout(function() {
+                            if ($(this).val() == "") {
+                                $(this).val($(this).attr('placeholder'));
+                            }
+                        });
+                    }
+                });
+            </script>
+            <script>
+                //	var imgflag = 0;
+                //	alert(imgflag);
+                $(function() {
+    
+    })
+            </script>
+            <table>
+                <tr>
+                    <td>
+                        <input class="text" name="k" type="text" id="search-keyword" value=""
+                        placeholder="请输入您要搜索的商品" />
+                    </td>
+                    <td>
+                        <input type="submit" class="bottom" value="搜索" />
+                    </td>
+                </tr> 
+            </table>
+        </form>
+    </div>
+    
+</div>
+<!--title end-->
+<div class="clear"></div>
+<!--Navigation start-->
+<div class="nav-con">
+    <div class="navigation">
+        <a href="#" title="" class="active">农具饲料</a>
+        <a href="#" title="">农资物资</a>
+        <a href="#" title="">苗木培育</a>
+        <a href="#" title="">种子化肥</a>
+    </div>
+</div>
+<!--Navigation end-->
+</div>
+
+<!--content start-->
+<div class="content">
+	<div class="preview">
+    	<div class="preview_left">
+        	<img src="images/cs.jpg"/>
+        </div>
+    	<div class="preview_right">
+        	<h4>杨三友石磨黑芝麻酱杨三友石磨黑芝麻酱杨三友石磨黑芝麻酱杨三友石磨黑芝麻酱300g</h4>
+            <p><span>售价</span><font class="sj">￥80.00</font></p>
+            <p><i>市场价：</i><font class="sc">￥80.00</font></p>
+            <p><i>库存：</i><font>888件</font></p>
+            <p style="margin-top:20px;"><i>折扣：</i><em><b>9</b>.8</em>折</p>
+        </div>
+        <div class="clear"></div>
+        <div class="details">商品详情</div>
+        <div class="preview_cont">
+        	<img src="images/1.jpg"/>
+        	<img src="images/2.jpg"/>
+        </div>
+    </div>
+</div>
+<!--content end-->
+<!--footer start-->
+<div class="footer">
+	<p>Copyright © 2010-2015 利安集团（中国）控股有限公司版权所有 | 陕ICP备14010795号-1</p>
+</div>
+<!--footer end-->
+</body>
+</html>
